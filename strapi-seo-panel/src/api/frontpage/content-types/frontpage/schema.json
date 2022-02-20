@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "frontpages",
+  "info": {
+    "singularName": "frontpage",
+    "pluralName": "frontpages",
+    "displayName": "Front page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}

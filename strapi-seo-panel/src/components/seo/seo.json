@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h1": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "Metatags": {
+      "displayName": "Meta tags",
+      "type": "component",
+      "repeatable": false,
+      "component": "meta-tags.meta-tags"
+    },
+    "canonicalURL": {
+      "type": "string"
+    },
+    "Social": {
+      "displayName": "metaSocial",
+      "type": "component",
+      "repeatable": true,
+      "component": "meta-tags.meta-social"
+    }
+  }
+}

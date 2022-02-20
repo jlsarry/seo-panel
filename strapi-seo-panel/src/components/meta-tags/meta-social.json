@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_meta_tags_meta_socials",
+  "info": {
+    "displayName": "metaSocial",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "socialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Twitter"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

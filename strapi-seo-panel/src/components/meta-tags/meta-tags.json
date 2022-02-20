@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_meta_tags_meta_tags",
+  "info": {
+    "displayName": "Meta tags",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaDescription": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "metaRobots": {
+      "type": "string",
+      "default": "index, follow"
+    },
+    "opengraphImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
