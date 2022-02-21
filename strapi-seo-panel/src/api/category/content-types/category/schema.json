@@ -16,13 +16,16 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     }
   }
 }
