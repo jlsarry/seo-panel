@@ -18,10 +18,10 @@
       "component": "seo.seo",
       "required": true
     },
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Slug": {
+    "slug": {
       "type": "string"
     }
   }
