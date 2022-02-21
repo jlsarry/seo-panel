@@ -16,6 +16,13 @@
     "metaRobots": {
       "type": "string",
       "default": "index, follow"
+    },
+    "opengraphImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

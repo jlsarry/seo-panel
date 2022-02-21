@@ -17,10 +17,10 @@
       "repeatable": false,
       "component": "seo.seo"
     },
-    "name": {
+    "Name": {
       "type": "string"
     },
-    "slug": {
+    "Slug": {
       "type": "string"
     }
   }

@@ -2,15 +2,14 @@
   "collectionName": "components_meta_tags_meta_socials",
   "info": {
     "displayName": "metaSocial",
-    "icon": "bullhorn",
-    "description": ""
+    "icon": "bullhorn"
   },
   "options": {},
   "attributes": {
     "socialNetwork": {
       "type": "enumeration",
       "enum": [
-        "OpenGraphFacebook",
+        "Facebook",
         "Twitter"
       ]
     },
@@ -21,12 +20,11 @@
       "type": "string"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
